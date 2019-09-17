@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.jacob.dao.IuserDao">
+    <select id="findAll" resultType="com.jacob.domain.User">
+        select * from user
+    </select>
+</mapper>
